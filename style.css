@@ -20,7 +20,7 @@ body {
 }
 /*================= BRAND TITLE ====================*/
 .brand {
-	width: 550px;
+	width: 700px;
 	padding: 1em 1em;
 	background-color: #343a40;
 	text-decoration: none;
@@ -28,6 +28,10 @@ body {
 	z-index: 98;
 }
 .brand a {
+	color: white;
+	text-decoration: none;
+}
+.brand a:hover {
 	color: white;
 	text-decoration: none;
 }
@@ -52,7 +56,7 @@ body {
   display: none;
 }
 /* Mobile-menu Settings */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
 	.menu-btn {
     display: flex;
     position: absolute;
@@ -82,7 +86,7 @@ input[type="checkbox"] {
   display: none;
 }
 /* Mobile-menu Settings */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
 	/* The checkbox is used as part of a button setup */
   input[type="checkbox"] {
     display: block;
@@ -139,14 +143,14 @@ input[type="checkbox"] {
 	color: #ffffff;
 }
 /* Mobile-menu Settings */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
 	#menuList > input[type=checkbox]:not(:checked) ~ li:nth-child(3) > a {
 		color: #343a40;
 	}
 	.menu-list {
     width: 100%;
 		position: absolute;
-		top: -10em;
+		top: -14em;
 		left: 0;
 		padding-bottom: 0.35em;
 		flex-direction: column;
@@ -213,6 +217,7 @@ input[type="checkbox"] {
 	box-shadow: 0 0.25em 0 0 #945201, 0 4px 9px rgb(0 0 0 / 75%);
 }
 .banner-box a:hover {
+  color: #ffffff;
 	text-decoration: none;
 	background-color: #ff6513;
 	border-color: #ff6513;
